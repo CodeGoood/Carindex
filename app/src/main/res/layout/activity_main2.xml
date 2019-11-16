@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ghost.bluetooth_connect.Main2Activity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/appBarLayout">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <Button
+        android:id="@+id/toothchart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="看圖表囉"
+        android:textSize="80px"
+        android:theme="@style/CustomButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/bluetooth"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="37dp" />
+
+
+    <Button
+        android:id="@+id/bluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="看我的牙齒狀態呦"
+        android:textSize="80px"
+        android:theme="@style/CustomButton"
+        android:layout_above="@+id/toothchart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp" />
+
+
+
+</RelativeLayout>
+
